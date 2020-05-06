@@ -1,0 +1,244 @@
+           * {
+       font-family: verdana;
+               margin: 0;
+               padding: 0;
+}
+
+body{
+    background-color: #ffecc7;
+}
+    
+   }
+   
+   .menu-bar {
+       width: 100%;
+       margin: 0 auto;
+   }
+   
+   nav {
+       background: #fdd998;
+   }
+   
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+       }
+
+       nav a {
+           text-decoration: none;
+           text-align: center;
+           color:rebeccapurple;
+           display: block;
+           padding: 10px;
+       }
+       nav a:hover {
+           background: #ffecc7;
+       }
+
+
+a.lg{
+    background: url(lg.png) no-repeat center;
+    background-size: 80%;
+    padding: 70px;
+    padding-bottom: 8px;
+ }
+
+.text h3{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 35px;
+}
+
+.text p{
+    text-align: center;
+    padding: 20px;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+
+
+.button_1 {
+            height: 38px;
+            border: 0;
+            background: rebeccapurple;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 600px;
+    
+    
+                    }
+
+.box {
+                     
+                        padding-top: 80px;
+                        padding-bottom: 80px;
+                        width: 5px;
+                        margin-left: 230px;
+                        
+                    }
+
+.text1 h3{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 35px;
+    padding: 50px;
+}
+
+#block{
+    margin: 120px;
+    margin-top: 50px;
+    
+}
+
+article{
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background:  #fdd998;
+    color: rebeccapurple;
+    font-size: 10px;
+}
+
+article h2{
+    font-size: 12px;
+    margin: 10px 0;
+    text-align: left;
+
+}
+
+.work{
+ 
+    padding: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    background-color:#fdd998;
+    
+}
+
+.work p{
+    
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: navy;
+    font-size: 15px;
+    text-align: left;
+    font-family: monospace;
+}
+
+.work h2{
+    color: rebeccapurple;
+    font-family: cursive;
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 0;
+}
+
+.about{
+    margin-top: 50px;
+    align-content: center;
+}
+.about h3{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 35px;
+}
+
+.about p{
+    text-align: center;
+    padding: 20px;
+    padding-left: 290px;
+    padding-right: 290px;
+    color: rebeccapurple;
+}
+
+.about img{
+    width: 3%;
+    
+}
+
+.touch{
+    margin-top: 50px;
+    align-content: center;
+    background-color: #fdd998;
+    padding: 70px;
+}
+
+.touch h1{ text-align: center;
+    color: rebeccapurple;
+    font-size: 35px;
+    
+}
+
+.touch p{
+    
+    text-align: center;
+    padding: 20px;
+    padding-left: 290px;
+    padding-right: 290px;
+    color: rebeccapurple;
+}
+
+.touch form{
+    
+    text-align: center;
+    padding: 20px;
+    padding-left: 290px;
+   padding-right: 290px;
+
+}
+
+.t{
+  
+    
+    align-content: center;
+    background-color: #f5b971;
+    padding: 70px;
+}
+
+.t img{
+    width: 10%;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+       @media screen and (min-width: 760px) {
+           nav ul {
+               display: flex;
+               justify-content: flex-end;
+           }
+        
+           nav li{
+               flex 1 1 0;
+              
+           }
+           
+           nav {
+               display: flex;
+               justify-content: space-between;
+           }
+           
+  
+           
+           #block{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+}
+           article{
+               flex: 0 1 32%;
+           }
